@@ -113,6 +113,7 @@ class LunarServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
+
         collect($this->configFiles)->each(function ($config) {
             $this->mergeConfigFrom("{$this->root}/config/$config.php", "lunar.$config");
         });
