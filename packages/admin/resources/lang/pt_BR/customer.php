@@ -2,61 +2,61 @@
 
 return [
 
-    'label' => 'Customer',
+    'label' => 'Cliente',
 
-    'plural_label' => 'Customers',
+    'plural_label' => 'Clientes',
 
     'table' => [
         'full_name' => [
-            'label' => 'Name',
+            'label' => 'Nome completo',
         ],
         'first_name' => [
-            'label' => 'First Name',
+            'label' => 'Nome',
         ],
         'last_name' => [
-            'label' => 'Last Name',
+            'label' => 'Sobrenome',
         ],
         'title' => [
-            'label' => 'Title',
+            'label' => 'Titulo',
         ],
         'company_name' => [
-            'label' => 'Company Name',
+            'label' => 'Nome da empresa',
         ],
         'vat_no' => [
-            'label' => 'VAT No.',
+            'label' => 'Nro. Documento Fiscal',
         ],
         'account_reference' => [
-            'label' => 'Account Reference',
+            'label' => 'Referência da conta',
         ],
         'new' => [
-            'label' => 'New',
+            'label' => 'Novo',
         ],
         'returning' => [
-            'label' => 'Returning',
+            'label' => 'Retorno',
         ],
     ],
 
     'form' => [
         'title' => [
-            'label' => 'Title',
+            'label' => 'Título',
         ],
         'first_name' => [
-            'label' => 'First Name',
+            'label' => 'Nome',
         ],
         'last_name' => [
-            'label' => 'Last Name',
+            'label' => 'Sobrenome',
         ],
         'company_name' => [
-            'label' => 'Company Name',
+            'label' => 'Nome da empresa',
         ],
         'account_ref' => [
-            'label' => 'Account Reference',
+            'label' => 'Referência da conta',
         ],
         'vat_no' => [
-            'label' => 'VAT No.',
+            'label' => 'Nro. Documento Fiscal',
         ],
         'customer_groups' => [
-            'label' => 'Customer Groups',
+            'label' => 'Grupos de cliente',
         ],
     ],
 

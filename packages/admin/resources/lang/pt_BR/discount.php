@@ -1,66 +1,66 @@
 <?php
 
 return [
-    'plural_label' => 'Discounts',
-    'label' => 'Discount',
+    'plural_label' => 'Descontos',
+    'label' => 'Desconto',
     'form' => [
         'conditions' => [
-            'heading' => 'Conditions',
+            'heading' => 'Condições',
         ],
         'buy_x_get_y' => [
-            'heading' => 'Buy X Get Y',
+            'heading' => 'Compre um leve outro',
         ],
         'amount_off' => [
-            'heading' => 'Amount Off',
+            'heading' => 'Valor de desconto',
         ],
         'name' => [
-            'label' => 'Name',
+            'label' => 'Nome',
         ],
         'handle' => [
             'label' => 'Handle',
         ],
         'starts_at' => [
-            'label' => 'Start Date',
+            'label' => 'Data início',
         ],
         'ends_at' => [
-            'label' => 'End Date',
+            'label' => 'Data fim',
         ],
         'priority' => [
-            'label' => 'Priority',
-            'helper_text' => 'Discounts with higher priority will be applied first.',
+            'label' => 'Prioridade',
+            'helper_text' => 'Descontos com maior prioridade serão aplicados primeiro.',
             'options' => [
                 'low' => [
-                    'label' => 'Low',
+                    'label' => 'Baixa',
                 ],
                 'medium' => [
-                    'label' => 'Medium',
+                    'label' => 'Média',
                 ],
                 'high' => [
-                    'label' => 'High',
+                    'label' => 'Alta',
                 ],
             ],
         ],
         'stop' => [
-            'label' => 'Stop other discounts applying after this one',
+            'label' => 'Parar outros descontos depois deste.',
         ],
         'coupon' => [
-            'label' => 'Coupon',
-            'helper_text' => 'Enter the coupon required for the discount to apply, if left blank it will apply automatically.',
+            'label' => 'Cupom',
+            'helper_text' => 'Informe o código do cupom para aplicar o disconto, se manter este campo vazio, um código sera gerado automaticamente.',
         ],
         'max_uses' => [
-            'label' => 'Max uses',
-            'helper_text' => 'Leave blank for unlimited uses.',
+            'label' => 'Quantidade máxima de usos',
+            'helper_text' => 'Deixe em branco para usos ilimitados.',
         ],
         'max_uses_per_user' => [
-            'label' => 'Max uses per user',
-            'helper_text' => 'Leave blank for unlimited uses.',
+            'label' => 'Quantidade máxima de usos por usuario',
+            'helper_text' => 'Deixe em branco para usos ilimitados.',
         ],
         'minimum_cart_amount' => [
-            'label' => 'Minimum Cart Amount',
+            'label' => 'Valor mínimo do carrinho',
         ],
         'min_qty' => [
-            'label' => 'Product Quantity',
-            'helper_text' => 'Set how many qualifying products are required for the discount to apply.',
+            'label' => 'Quantidade de produto',
+            'helper_text' => 'Defina a quantidade de produtos para qualificar o uso deste cupom.',
         ],
         'reward_qty' => [
             'label' => 'No. of free items',
@@ -77,61 +77,61 @@ return [
     ],
     'table' => [
         'name' => [
-            'label' => 'Name',
+            'label' => 'Nome',
         ],
         'status' => [
-            'label' => 'Status',
+            'label' => 'Situação',
             \Lunar\Models\Discount::ACTIVE => [
-                'label' => 'Active',
+                'label' => 'Ativo',
             ],
             \Lunar\Models\Discount::PENDING => [
-                'label' => 'Pending',
+                'label' => 'Pendente',
             ],
             \Lunar\Models\Discount::EXPIRED => [
-                'label' => 'Expired',
+                'label' => 'Expirado',
             ],
             \Lunar\Models\Discount::SCHEDULED => [
-                'label' => 'Scheduled',
+                'label' => 'Agendado',
             ],
         ],
         'type' => [
-            'label' => 'Type',
+            'label' => 'Tipo',
         ],
         'starts_at' => [
-            'label' => 'Start Date',
+            'label' => 'Data início',
         ],
         'ends_at' => [
-            'label' => 'End Date',
+            'label' => 'Data fim',
         ],
     ],
     'pages' => [
         'availability' => [
-            'label' => 'Availability',
+            'label' => 'Disponibilidade',
         ],
         'limitations' => [
-            'label' => 'Limitations',
+            'label' => 'Limitações',
         ],
     ],
     'relationmanagers' => [
         'collections' => [
-            'title' => 'Collections',
-            'description' => 'Select which collections this discount should be limited to.',
+            'title' => 'Coleções',
+            'description' => 'Selecione em quais coleções este disconto será limitado.',
             'actions' => [
                 'attach' => [
-                    'label' => 'Attach Collection',
+                    'label' => 'Vincular Coleção',
                 ],
             ],
             'table' => [
                 'name' => [
-                    'label' => 'Name',
+                    'label' => 'Nome',
                 ],
                 'type' => [
-                    'label' => 'Type',
+                    'label' => 'Tipo',
                     'limitation' => [
-                        'label' => 'Limitation',
+                        'label' => 'Limitação',
                     ],
                     'exclusion' => [
-                        'label' => 'Exclusion',
+                        'label' => 'Exclusão',
                     ],
                 ],
             ],
@@ -139,34 +139,34 @@ return [
                 'type' => [
                     'options' => [
                         'limitation' => [
-                            'label' => 'Limitation',
+                            'label' => 'Limitação',
                         ],
                         'exclusion' => [
-                            'label' => 'Exclusion',
+                            'label' => 'Exclusão',
                         ],
                     ],
                 ],
             ],
         ],
         'brands' => [
-            'title' => 'Brands',
-            'description' => 'Select which brands this discount should be limited to.',
+            'title' => 'Marcas',
+            'description' => 'Selecione em quais marcas este disconto pode ser aplicado.',
             'actions' => [
                 'attach' => [
-                    'label' => 'Attach Brand',
+                    'label' => 'Vincular Marca',
                 ],
             ],
             'table' => [
                 'name' => [
-                    'label' => 'Name',
+                    'label' => 'Nome',
                 ],
                 'type' => [
-                    'label' => 'Type',
+                    'label' => 'Tipo',
                     'limitation' => [
-                        'label' => 'Limitation',
+                        'label' => 'Limitação',
                     ],
                     'exclusion' => [
-                        'label' => 'Exclusion',
+                        'label' => 'Exclusão',
                     ],
                 ],
             ],
@@ -174,34 +174,34 @@ return [
                 'type' => [
                     'options' => [
                         'limitation' => [
-                            'label' => 'Limitation',
+                            'label' => 'Limitação',
                         ],
                         'exclusion' => [
-                            'label' => 'Exclusion',
+                            'label' => 'Exclusão',
                         ],
                     ],
                 ],
             ],
         ],
         'products' => [
-            'title' => 'Products',
-            'description' => 'Select which products this discount should be limited to.',
+            'title' => 'Produtos',
+            'description' => 'Selecione em quais produtos limitam o uso deste desconto.',
             'actions' => [
                 'attach' => [
-                    'label' => 'Add Product',
+                    'label' => 'Adicinar Produto',
                 ],
             ],
             'table' => [
                 'name' => [
-                    'label' => 'Name',
+                    'label' => 'Nome',
                 ],
                 'type' => [
-                    'label' => 'Type',
+                    'label' => 'Tipo',
                     'limitation' => [
-                        'label' => 'Limitation',
+                        'label' => 'Limitação',
                     ],
                     'exclusion' => [
-                        'label' => 'Exclusion',
+                        'label' => 'Exclusão',
                     ],
                 ],
             ],
@@ -209,10 +209,10 @@ return [
                 'type' => [
                     'options' => [
                         'limitation' => [
-                            'label' => 'Limitation',
+                            'label' => 'Limitação',
                         ],
                         'exclusion' => [
-                            'label' => 'Exclusion',
+                            'label' => 'Exclusão',
                         ],
                     ],
                 ],
@@ -233,10 +233,10 @@ return [
                 'type' => [
                     'label' => 'Type',
                     'limitation' => [
-                        'label' => 'Limitation',
+                        'label' => 'Limitação',
                     ],
                     'exclusion' => [
-                        'label' => 'Exclusion',
+                        'label' => 'Exclusão',
                     ],
                 ],
             ],
@@ -244,10 +244,10 @@ return [
                 'type' => [
                     'options' => [
                         'limitation' => [
-                            'label' => 'Limitation',
+                            'label' => 'Limitação',
                         ],
                         'exclusion' => [
-                            'label' => 'Exclusion',
+                            'label' => 'Exclusão',
                         ],
                     ],
                 ],
@@ -268,10 +268,10 @@ return [
                 'type' => [
                     'label' => 'Type',
                     'limitation' => [
-                        'label' => 'Limitation',
+                        'label' => 'Limitação',
                     ],
                     'exclusion' => [
-                        'label' => 'Exclusion',
+                        'label' => 'Exclusão',
                     ],
                 ],
             ],
@@ -279,42 +279,42 @@ return [
                 'type' => [
                     'options' => [
                         'limitation' => [
-                            'label' => 'Limitation',
+                            'label' => 'Limitação',
                         ],
                         'exclusion' => [
-                            'label' => 'Exclusion',
+                            'label' => 'Exclusão',
                         ],
                     ],
                 ],
             ],
         ],
         'productvariants' => [
-            'title' => 'Product Variants',
+            'title' => 'Variantes de produtos',
             'description' => 'Select which product variants this discount should be limited to.',
             'actions' => [
                 'attach' => [
-                    'label' => 'Add Product Variant',
+                    'label' => 'Adicionar variante de produto',
                 ],
             ],
             'table' => [
                 'name' => [
-                    'label' => 'Name',
+                    'label' => 'Nome',
                 ],
                 'sku' => [
                     'label' => 'SKU',
                 ],
                 'values' => [
-                    'label' => 'Option(s)',
+                    'label' => 'Opção(ões)',
                 ],
             ],
             'form' => [
                 'type' => [
                     'options' => [
                         'limitation' => [
-                            'label' => 'Limitation',
+                            'label' => 'Limitação',
                         ],
                         'exclusion' => [
-                            'label' => 'Exclusion',
+                            'label' => 'Exclusão',
                         ],
                     ],
                 ],

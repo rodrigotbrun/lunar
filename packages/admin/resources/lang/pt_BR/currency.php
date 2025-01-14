@@ -2,49 +2,49 @@
 
 return [
 
-    'label' => 'Currency',
+    'label' => 'Moeda',
 
-    'plural_label' => 'Currencies',
+    'plural_label' => 'Moedas',
 
     'table' => [
         'name' => [
-            'label' => 'Name',
+            'label' => 'Nome',
         ],
         'code' => [
-            'label' => 'Code',
+            'label' => 'Código',
         ],
         'exchange_rate' => [
-            'label' => 'Exchange Rate',
+            'label' => 'Taxa de câmbio',
         ],
         'decimal_places' => [
-            'label' => 'Decimal Places',
+            'label' => 'Casas decimais',
         ],
         'enabled' => [
-            'label' => 'Enabled',
+            'label' => 'Ativo',
         ],
         'default' => [
-            'label' => 'Default',
+            'label' => 'Padrão',
         ],
     ],
 
     'form' => [
         'name' => [
-            'label' => 'Name',
+            'label' => 'Nome',
         ],
         'code' => [
-            'label' => 'Code',
+            'label' => 'Código',
         ],
         'exchange_rate' => [
-            'label' => 'Exchange Rate',
+            'label' => 'Taxa de câmbio',
         ],
         'decimal_places' => [
-            'label' => 'Decimal Places',
+            'label' => 'Casas decimais',
         ],
         'enabled' => [
-            'label' => 'Enabled',
+            'label' => 'Ativo',
         ],
         'default' => [
-            'label' => 'Default',
+            'label' => 'Padrão',
         ],
     ],
 

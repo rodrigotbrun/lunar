@@ -2,38 +2,38 @@
 
 return [
 
-    'label' => 'Customer Group',
+    'label' => 'Grupo de clientes',
 
-    'plural_label' => 'Customer Groups',
+    'plural_label' => 'Grupos de clientes',
 
     'table' => [
         'name' => [
-            'label' => 'Name',
+            'label' => 'Nome',
         ],
         'handle' => [
             'label' => 'Handle',
         ],
         'default' => [
-            'label' => 'Default',
+            'label' => 'Padrão',
         ],
     ],
 
     'form' => [
         'name' => [
-            'label' => 'Name',
+            'label' => 'Nome',
         ],
         'handle' => [
             'label' => 'Handle',
         ],
         'default' => [
-            'label' => 'Default',
+            'label' => 'Padrão',
         ],
     ],
 
     'action' => [
         'delete' => [
             'notification' => [
-                'error_protected' => 'This customer group can not be deleted as there are customers associated.',
+                'error_protected' => 'Este grupo de clientes não pode ser deletado pois existem clientes vinculados.',
             ],
         ],
     ],
