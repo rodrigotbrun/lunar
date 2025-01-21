@@ -4,6 +4,7 @@ namespace Lunar\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\SoftDeletes;
 use Lunar\Base\BaseModel;
 use Lunar\Base\Traits\HasMacros;
 use Lunar\Database\Factories\CountryFactory;
@@ -26,6 +27,7 @@ class Country extends BaseModel implements Contracts\Country
 {
     use HasFactory;
     use HasMacros;
+    use SoftDeletes;
 
     /**
      * Return a new factory instance for the model.
