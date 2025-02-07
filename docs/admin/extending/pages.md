@@ -198,7 +198,7 @@ class MyEditExtension extends EditPageExtension
 
 // Typically placed in your AppServiceProvider file...
 LunarPanel::extensions([
-    \Lunar\Admin\Filament\Resources\ProductResource\Pages\EditProduct::class => MyEditExtension::class,
+    \Lunar\Admin\Filament\Resources\ProductResource\Pages\EditWebhook::class => MyEditExtension::class,
 ]);
 ```
 
@@ -267,7 +267,7 @@ class MyListExtension extends ListPageExtension
 
 // Typically placed in your AppServiceProvider file...
 LunarPanel::extensions([
-    \Lunar\Admin\Filament\Resources\ProductResource\Pages\ListProducts::class => MyListExtension::class,
+    \Lunar\Admin\Filament\Resources\ProductResource\Pages\ListWebhooks::class => MyListExtension::class,
 ]);
 ```
 

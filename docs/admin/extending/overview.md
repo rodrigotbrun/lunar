@@ -10,15 +10,15 @@ To extend a page you need to create and register an extension.
 
 ### Extending edit resource
 
-For example, the code below will register a custom extension called `MyEditExtension` for the `EditProduct` Filament page.
+For example, the code below will register a custom extension called `MyEditExtension` for the `EditWebhook` Filament page.
 
 ```php
 use Lunar\Admin\Support\Facades\LunarPanel;
-use Lunar\Panel\Filament\Resources\ProductResource\Pages\EditProduct;
+use Lunar\Panel\Filament\Resources\ProductResource\Pages\EditWebhook;
 use App\Admin\Filament\Resources\Pages\MyEditExtension;
 
 LunarPanel::extensions([
-    EditProduct::class => MyEditExtension::class,
+    EditWebhook::class => MyEditExtension::class,
 ]);
 
 ```
